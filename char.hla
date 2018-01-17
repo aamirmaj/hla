@@ -1,0 +1,10 @@
+program Character;
+#include ( "stdlib.hhf" );
+
+static 
+    c: char;
+    LetterA: char := 'A';
+
+Begin Character;
+    stdout.put(LetterA);
+End Character;
